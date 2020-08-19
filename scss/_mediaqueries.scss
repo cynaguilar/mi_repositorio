@@ -1,0 +1,42 @@
+/* MEDIA QUERY */
+
+@media (max-width: 576px) {
+	#carouselExampleIndicators {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.tituloHome {
+		font-size: 200%;
+		text-align: left;
+		padding-top: 35px;
+	}
+
+	.menu {
+		width: 500px;
+		font-size: 15px;
+	}
+	
+	button.btn {
+		font-size: 15px;
+	}
+
+	article#grillaFooter {
+		grid-template-rows: 40px 100px;
+    	grid-template-columns: 250px 250px;   
+    	grid-row-gap: 10px;
+    	grid-column-gap: 10px;
+    	margin-bottom: 100px;   
+	}
+
+	a.volverHome {
+		font-size: 80%;
+		height: 10px;
+		width: 80px;
+		margin: 50px 50px 50px 200px;
+		text-align: center; 
+	}
+
+}
+
+/* FIN MEDIA QUERY */
